@@ -16,7 +16,7 @@ resource "aws_instance" "myawsserver" {
   key_name = "naren-keypair"
 
   tags = {
-    Name = "raman-DevOps-batch-server"
+    Name = "Naren-DevOps-batch-server"
     env = "Production"
     owner = "Raman"
   }
